@@ -22,16 +22,22 @@ ____
 This is a Terminal chat implementation by using Typescript and web Socket technology. 
 
 ## Technologies
-General
-- Typescript
+General:
 
-UI:
-- Blessed
-- Inquirer
-- Socket io
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)]()
 
-Back
-- Socket io
+User Interface:
+
+[![Blessed](https://img.shields.io/badge/NPM_Package-Blessed-red)]()
+
+[![Inquirer](https://img.shields.io/badge/NPM_Package-Inquirer-lightgrey)]()
+
+[![Socket IO](https://img.shields.io/badge/Socket-IO-brightgreen)]()
+
+
+Back-end:
+
+[![Socket IO](https://img.shields.io/badge/Socket-IO-brightgreen)]()
 
 ## Architecture
 Web Sockets implementation follows the Client - Server architecture. There are clients connected to a Central server and it is in charge of distributing the information among them. Unlike the HTTP protocol, WebSocket keeps the connection open until the client decided just to disconnect. 
