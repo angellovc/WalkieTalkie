@@ -1,8 +1,10 @@
 # WalkieTalkie
 ### Download our Client and Start using it
+
 [![Download Badge](https://img.shields.io/badge/WalkieTalkie%20Client-Download-blue)](https://drive.google.com/uc?export=download&id=1NuFzJhJRuSryMWwsPBJspThRjE23lw4L)
 
 WalkieTalkie is an instant message application. 
+
 ![Alt FindUnion image](./assets/chat.gif)
 > This chat app runs on the terminal
 
@@ -15,8 +17,8 @@ ____
 3. [ Architecture ](#Architecture)
 4. [ Using WalkieTalkie ](#Using-WalkieTalkie )
 5. [Setting your own WalkieTalkie Server](#Setting-your-own-WalkieTalkie-Server)
----
-## 
+
+## Description
 This is a Terminal chat implementation by using Typescript and web Socket technology. 
 
 ## Technologies
@@ -30,17 +32,16 @@ UI:
 
 Back
 - Socket io
----
 
 ## Architecture
 Web Sockets implementation follows the Client - Server architecture. There are clients connected to a Central server and it is in charge of distributing the information among them. Unlike the HTTP protocol, WebSocket keeps the connection open until the client decided just to disconnect. 
 
 ![Alt FindUnion image](./assets/socket1.png);
 
-## [ Client ](./client/)
+### [ Client ](./client/)
 The chat is executed directly from the client terminal.
 
-## [ Server ](./server/)
+### [ Server ](./server/)
 The server side implementation is served by an HTTP server and uses Nginx as reverse proxy.
 
 ----
