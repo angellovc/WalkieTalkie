@@ -6,7 +6,6 @@ This is a WebSocket server in charge of distribute the WalkieTalkie chat message
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.npmjs.com/package/typescript)
 
-
 [![Socket IO](https://img.shields.io/badge/Socket-IO-brightgreen)](https://www.npmjs.com/package/socket.io)
 
 
@@ -16,11 +15,11 @@ This implementaiton works in the same way the walkietalkie device works. This se
 ![Alt Socket Connection](../assets/socket2.png)
 > The image is showing two different channels with some computers connected to them
 
-The messages are shared by the clients subscribed to the same Channel
+The messages are shared by the clients subscribed to the same Channel. In this case the server does not store any information to keep the privacy of the users.
 
 ## Setting your server up
 
-To start the server you have to specify the PORT in which the server will be listening. To do that, set the env variable WALKIETALKIE_PORT to the port you want
+To start the server you have to specify the PORT in which the server will be listening. To do that, set the env variable WALKIETALKIE_PORT to the port you want.
 
 ```
     WALKIETALKIE_PORT=8080 node index.js

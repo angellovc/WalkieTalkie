@@ -1,7 +1,9 @@
 # WalkieTalkie
 ### Download our Client and Start using it
 
+
 [![Download Badge](https://img.shields.io/badge/WalkieTalkie%20Client-Download-blue)](https://drive.google.com/uc?export=download&id=1NuFzJhJRuSryMWwsPBJspThRjE23lw4L)
+> Download my implementation. It is connected to a server that does not store any user information and is encrypted by an SSL certificate in order to garantee the privacy.
 
 WalkieTalkie is an instant message application. 
 
