@@ -44,7 +44,6 @@ The chat is executed directly from the client terminal.
 ### [ Server ](./server/)
 The server side implementation is served by an HTTP server and uses Nginx as reverse proxy.
 
-----
 
 ## Using WalkieTalkie 
 
@@ -67,9 +66,6 @@ Execute it
 ```
     ./walkietalkie_client
 ```
-
----
-
 
 ## Setting your own WalkieTalkie Server
 
