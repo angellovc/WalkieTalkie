@@ -10,6 +10,7 @@ Download my implementation. It is connected to a server that does not store any 
 This is a Chat implementation that runs on the terminal. This chat uses channels to connect with others. The channel, in this case, is an analogy to the frequency in the walkietalkie radios. You are just able to see the messages of the people subscribed to the same channel.
 
 As a user you have two options: create a new channel or join an existent one.
+
 ![Chat entry point](../assets/chat1.png)
 
 Once you select the create a channel option, the chat screen will be opened and in the upper part of it you'll be able see you channel. Every channel is unique and can be resausable no matter closed the chat before.
