@@ -24,20 +24,20 @@ This is a Terminal chat implementation by using Typescript and web Socket techno
 ## Technologies
 General:
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.npmjs.com/package/typescript)
 
 User Interface:
 
-![Blessed](https://img.shields.io/badge/NPM_Package-Blessed-red)
+[![Blessed](https://img.shields.io/badge/NPM_Package-Blessed-red)](https://www.npmjs.com/package/blessed)
 
-![Inquirer](https://img.shields.io/badge/NPM_Package-Inquirer-lightgrey)
+[![Inquirer](https://img.shields.io/badge/NPM_Package-Inquirer-lightgrey)](https://www.npmjs.com/package/inquirer)
 
-![Socket IO](https://img.shields.io/badge/Socket-IO-brightgreen)
+[![Socket IO](https://img.shields.io/badge/Socket-IO-brightgreen)](https://www.npmjs.com/package/socket.io)
 
 
 Back-end:
 
-![Socket IO](https://img.shields.io/badge/Socket-IO-brightgreen)
+[![Socket IO](https://img.shields.io/badge/Socket-IO-brightgreen)](https://www.npmjs.com/package/socket.io)
 
 ## Architecture
 Web Sockets implementation follows the Client - Server architecture. There are clients connected to a Central server and it is in charge of distributing the information among them. Unlike the HTTP protocol, WebSocket keeps the connection open until the client decided just to disconnect. 
